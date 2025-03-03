@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="logo.favicon" type="image/x-icon" />
+		<link rel="stylesheet" href="style.css">
+		<title>Інтернет-магазин комп'ютерної техніки</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__container">
+				<div class="header__left">
+					<h1 class="header__title">Zone52-твоя теріторія для геймінгу</h1>
+					<div class="header__contact contact">
+						<div class="contact__label">
+							<p class="contact__text">Інтернет-магазин, <span class="green-color">098-515-02-77</span></p>
+							<p class="contact__time">Пн-Нд: 10:00 - 18:00</p>
+						</div>
+						<button class="contact__button">ПЕРЕДЗВОНІТЬ МЕНІ</button>
+					</div>
+					<nav class="header__navigation">
+						<a href="#" class="header__link">МАГАЗИНИ</a>
+						<a href="#" class="header__link">КРЕДИТНА ЛІНІЯ</a>
+						<a href="#" class="header__link">ДОСТАВКА</a>
+						<a href="#" class="header__link payment">ОПЛАТА</a>
+						<a href="#" class="header__link">ГАРАНТІЯ</a>
+						<div class="subheader__burger burger">
+							<button type="button" class="burger__icon"><span></span></button>
+						</div>
+						<div class="cart-payment hidden">
+							<div class="cart-payment-content">
+								<span class="close-payment-cart">&times;</span>
+								<h2>Оплата</h2>
+								<button class="checkout-button">Оформити заказ</button>
+							</div>
+						</div>
+					</nav>
+				</div>
+				<div class="header__right">
+					<div class="header__subheader subheader">
+						<div class="subheader__catalogy">
+							<h2 class="subheader__title">КАТАЛОГ ТОВАРІВ</h2>
+							<div class="subheader__burger burger">
+								<button type="button" class="burger__icon"><span></span></button>
+							</div>
+						</div>
+						<div class="catalog">
+							<ul class="catalog__ul">
+								<li class="catalog__item"><a class="catalog__link" href="#">ТОВАРИ ДЛЯ ГЕЙМЕРІВ</a></li>
+								<li class="catalog__item"><a class="catalog__link" href="#">АКУСТИКА</a></li>
+								<li class="catalog__item"><a class="catalog__link" href="#">ІГРОВІ КОНСОЛІ</a></li>
+							</ul>
+						</div>
+						<div class="subheader__search">
+							<input type="text" placeholder="Пошук товару" class="subheader__input">
+							<button class="subheader__button">
+								<div class="subheader__icon"></div>
+							</button>
+						</div>
+						<div class="subheader__menu">
+							<a class="subheader__text" href="#">
+								Бажання
+							</a>
+							<button class="subheader__text popup" href="#">Кошик</button>
+
+							<div class="cart-popup hidden">
+								<div class="cart-content">
+									<span class="close-cart">&times;</span>
+									<h2>Корзина</h2>
+									<ul class="cart-items"></ul>
+									<button class="checkout-button">Перейти до покупки</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<div class="main__container">
+				<aside class="main__aside aside">
+					<div class="aside__categories">
+						<h3 class="aside__title">КАТЕГОРІЇ</h3>
+						<ul class="aside__nav nav">
+							<li class="nav__item"><a class="nav__link" href="index.html">Ноутбуки</a></li>
+							<li class="nav__item"><a class="nav__link" href="computers.html">Комп’ютери</a></li>
+							<li class="nav__item"><a class="nav__link" href="monoblocks.html">Монітори</a></li>
+							<li class="nav__item"><a class="nav__link" href="accessories.html">Аксесуари</a></li>
+						</ul>
+					</div>
+					<div class="aside__line"></div>
+					<div class="aside__price">
+						<h3 class="aside__title">ЦІНА</h3>
+						<div class="aside__box">
+							<input type="number" class="aside__input" value="799">
+							<div class="aside__line"></div>
+							<input type="number" class="aside__input" value="54999">
+						</div>
+					</div>
+				</aside>
+				<div class="main__products products">
+					<div class="products__box box">
+						<p>Код для замовлення <span>1</span></p>
+						<img src="img/notebookOne.png" alt="Image" class="box__image">
+						<h3 class="box__title">ACER MSI</h3>
+						<p class="box__brand">Бренд: MSI (США)</p>
+						<p class="box__description">Портативная акустика с мощным звуком</p>
+						<p class="box__sku">Артикул: 123456</p>
+						<p class="box__stock">Наличие на складе: <span class="in-stock">Есть в наличии</span></p>
+						<p class="box__warranty">Гарантия: 1 год</p>
+						<div class="center">
+							<h2 class="box__price">40000 <span class="gray-color">грн.</span></h2>
+							<button href="#" class="box__link bold add-to-cart" data-product="ACER MSI - 40000 грн.">ПРИДБАТИ</button>
+							<a href="#" class="box__link">МИТТЄВЕ ЗАМОВЛЕННЯ</a>
+						</div>
+					</div>
+
+					<div class="products__box box">
+						<p>Код для замовлення <span>2</span></p>
+						<img src="img/notebookTwo.png" alt="Image" class="box__image">
+						<h3 class="box__title">ASUS MSI</h3>
+						<p class="box__brand">Бренд: MSI (США)</p>
+						<p class="box__description">Портативная акустика с мощным звуком</p>
+						<p class="box__sku">Артикул: 123456</p>
+						<p class="box__stock">Наличие на складе: <span class="in-stock">Есть в наличии</span></p>
+						<p class="box__warranty">Гарантия: 1 год</p>
+						<div class="center">
+							<h2 class="box__price">23000 <span class="gray-color">грн.</span></h2>
+							<button href="#" class="box__link bold add-to-cart" data-product="ASUS MSI - 23000 грн.">ПРИДБАТИ</button>
+							<a href="#" class="box__link">МИТТЄВЕ ЗАМОВЛЕННЯ</a>
+						</div>
+					</div>
+
+					<div class="products__box box">
+						<p>Код для замовлення <span>3</span></p>
+						<img src="img/notebookThree.png" alt="Image" class="box__image">
+						<h3 class="box__title">TUF Gaming A15</h3>
+						<p class="box__brand">Бренд: TUF (США)</p>
+						<p class="box__description">Портативная акустика с мощным звуком</p>
+						<p class="box__sku">Артикул: 123456</p>
+						<p class="box__stock">Наличие на складе: <span class="in-stock">Есть в наличии</span></p>
+						<p class="box__warranty">Гарантия: 1 год</p>
+						<div class="center">
+							<h2 class="box__price">53000 <span class="gray-color">грн.</span></h2>
+							<button href="#" class="box__link bold add-to-cart" data-product="TUF Gaming A15 - 53000 грн.">ПРИДБАТИ</button>
+							<a href="#" class="box__link">МИТТЄВЕ ЗАМОВЛЕННЯ</a>
+						</div>
+					</div>
+
+					<div class="products__box box">
+						<p>Код для замовлення <span>4</span></p>
+						<img src="img/notebookFive.png" alt="Image" class="box__image">
+						<h3 class="box__title">MSI Vector 17 HX</h3>
+						<p class="box__brand">Бренд: MSI (США)</p>
+						<p class="box__description">Портативная акустика с мощным звуком</p>
+						<p class="box__sku">Артикул: 123456</p>
+						<p class="box__stock">Наличие на складе: <span class="in-stock">Есть в наличии</span></p>
+						<p class="box__warranty">Гарантия: 1 год</p>
+						<div class="center">
+							<h2 class="box__price">11999 <span class="gray-color">грн.</span></h2>
+							<button href="#" class="box__link bold add-to-cart" data-product="MSI Vector 17 HX - 11999 грн.">ПРИДБАТИ</button>
+							<a href="#" class="box__link">МИТТЄВЕ ЗАМОВЛЕННЯ</a>
+						</div>
+					</div>
+
+					<div class="products__box box">
+						<p>Код для замовлення <span>5</span></p>
+						<img src="img/notebookOne.png" alt="Image" class="box__image">
+						<h3 class="box__title">ACER MSI</h3>
+						<p class="box__brand">Бренд: Razer (США)</p>
+						<p class="box__description">Портативная акустика с мощным звуком</p>
+						<p class="box__sku">Артикул: 123456</p>
+						<p class="box__stock">Наличие на складе: <span class="in-stock">Есть в наличии</span></p>
+						<p class="box__warranty">Гарантия: 1 год</p>
+						<div class="center">
+							<h2 class="box__price">11999 <span class="gray-color">грн.</span></h2>
+							<button href="#" class="box__link bold add-to-cart" data-product="ACER MSI - 11999 грн.">ПРИДБАТИ</button>
+							<a href="#" class="box__link">МИТТЄВЕ ЗАМОВЛЕННЯ</a>
+						</div>
+					</div>
+
+					<div class="products__box box">
+						<p>Код для замовлення <span>6</span></p>
+						<img src="img/notebookFour.png" alt="Image" class="box__image">
+						<h3 class="box__title">MSI Creator M16 A12UD</h3>
+						<p class="box__brand">Бренд: MSI (США)</p>
+						<p class="box__description">Портативная акустика с мощным звуком</p>
+						<p class="box__sku">Артикул: 123456</p>
+						<p class="box__stock">Наличие на складе: <span class="in-stock">Есть в наличии</span></p>
+						<p class="box__warranty">Гарантия: 1 год</p>
+						<div class="center">
+							<h2 class="box__price">11999 <span class="gray-color">грн.</span></h2>
+							<button href="#" class="box__link bold add-to-cart" data-product="MSI Creator M16 A12UD - 11999 грн.">ПРИДБАТИ</button>
+							<a href="#" class="box__link">МИТТЄВЕ ЗАМОВЛЕННЯ</a>
+						</div>
+					</div>
+
+					<div class="products__box box">
+						<p>Код для замовлення <span>7</span></p>
+						<img src="img/notebookOne.png" alt="Image" class="box__image">
+						<h3 class="box__title">ACER MSI</h3>
+						<p class="box__brand">Бренд: Razer (США)</p>
+						<p class="box__description">Портативная акустика с мощным звуком</p>
+						<p class="box__sku">Артикул: 123456</p>
+						<p class="box__stock">Наличие на складе: <span class="in-stock">Есть в наличии</span></p>
+						<p class="box__warranty">Гарантия: 1 год</p>
+						<div class="center">
+							<h2 class="box__price">11999 <span class="gray-color">грн.</span></h2>
+							<button href="#" class="box__link bold add-to-cart" data-product="ACER MSI - 11999 грн.">ПРИДБАТИ</button>
+							<a href="#" class="box__link">МИТТЄВЕ ЗАМОВЛЕННЯ</a>
+						</div>
+					</div>
+
+					<div class="products__box box">
+						<p>Код для замовлення <span>8</span></p>
+						<img src="img/notebookOne.png" alt="Image" class="box__image">
+						<h3 class="box__title">ACER MSI</h3>
+						<p class="box__brand">Бренд: Razer (США)</p>
+						<p class="box__description">Портативная акустика с мощным звуком</p>
+						<p class="box__sku">Артикул: 123456</p>
+						<p class="box__stock">Наличие на складе: <span class="in-stock">Есть в наличии</span></p>
+						<p class="box__warranty">Гарантия: 1 год</p>
+						<div class="center">
+							<h2 class="box__price">11999 <span class="gray-color">грн.</span></h2>
+							<button href="#" class="box__link bold add-to-cart" data-product="ACER MSI - 11999 грн.">ПРИДБАТИ</button>
+							<a href="#" class="box__link">МИТТЄВЕ ЗАМОВЛЕННЯ</a>
+						</div>
+					</div>
+
+					<div class="products__box box">
+						<p>Код для замовлення <span>9</span></p>
+						<img src="img/notebookOne.png" alt="Image" class="box__image">
+						<h3 class="box__title">ACER MSI</h3>
+						<p class="box__brand">Бренд: Razer (США)</p>
+						<p class="box__description">Портативная акустика с мощным звуком</p>
+						<p class="box__sku">Артикул: 123456</p>
+						<p class="box__stock">Наличие на складе: <span class="in-stock">Есть в наличии</span></p>
+						<p class="box__warranty">Гарантия: 1 год</p>
+						<div class="center">
+							<h2 class="box__price">11999 <span class="gray-color">грн.</span></h2>
+							<button href="#" class="box__link bold add-to-cart" data-product="ACER MSI - 11999 грн.">ПРИДБАТИ</button>
+							<a href="#" class="box__link">МИТТЄВЕ ЗАМОВЛЕННЯ</a>
+						</div>
+					</div>
+
+					<div class="products__box box">
+						<p>Код для замовлення <span>10</span></p>
+						<img src="img/notebookOne.png" alt="Image" class="box__image">
+						<h3 class="box__title">ACER MSI</h3>
+						<p class="box__brand">Бренд: Razer (США)</p>
+						<p class="box__description">Портативная акустика с мощным звуком</p>
+						<p class="box__sku">Артикул: 123456</p>
+						<p class="box__stock">Наличие на складе: <span class="in-stock">Есть в наличии</span></p>
+						<p class="box__warranty">Гарантия: 1 год</p>
+						<div class="center">
+							<h2 class="box__price">11999 <span class="gray-color">грн.</span></h2>
+							<button href="#" class="box__link bold add-to-cart" data-product="ACER MSI - 11999 грн.">ПРИДБАТИ</button>
+							<a href="#" class="box__link">МИТТЄВЕ ЗАМОВЛЕННЯ</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__info">
+					<h3 class="footer__title">Контактна інформація</h3>
+					<p class="footer__text">Телефон: <span class="green-color">098-515-02-77</span></p>
+					<p class="footer__text">Email: info@gamershop.com.ua</p>
+					<p class="footer__text">Адреса: м. Київ, вул. Геймерська, 12</p>
+				</div>
+				<div class="footer__nav">
+					<h3 class="footer__title">Швидкі посилання</h3>
+					<a href="#" class="footer__link">Магазини</a>
+					<a href="#" class="footer__link payment">Оплата</a>
+					<a href="#" class="footer__link">Доставка</a>
+					<a href="#" class="footer__link">Гарантія</a>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<p class="footer__copyright">© 2024 Інтернет-магазин комп'ютерної техніки. Всі права захищені.</p>
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
